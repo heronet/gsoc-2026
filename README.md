@@ -3,9 +3,9 @@
 ## You
 
 - **Name**: Siratul Islam
-- **Current/last occupation**: Maintainer of the Biometrics subsystem in Zephyr RTOS / Undergrad Physics Student at  Shahjalal University of Science and Technology, Sylhet, Bangladesh
+- **Current/last occupation**: Maintainer of the Biometrics subsystem in Zephyr RTOS / Undergrad Physics Student / Research Assistant in the EEE department at Shahjalal University of Science and Technology, Sylhet, Bangladesh
 - **Short bio / overview of your background**:
-  I am the maintainer of Zephyr’s Biometrics subsystem. Over the past year I have had 18 PRs merged, added support for 9 new boards, implemented 2 display drivers, 2 biometric (meta)drivers, and authored the complete Biometrics API and framework from scratch. I also review PRs and fix bugs on existing codebase. This makes me deeply familiar with Zephyr’s internals and structure. I also authored a Time-of-Flight sensor driver (ST VL53L1X) that is currently in v5 review for Linux mainline. My first-author paper on the Vendor-Agnostic Biometric Subsystem for Industrial IoT is under revision at IEEE Transactions on Industrial Informatics.
+  I am the maintainer of Zephyr’s Biometrics subsystem. Over the past year I have had 18 PRs merged, added support for 9 new boards, implemented 2 display drivers, 2 biometric (meta)drivers, and authored the complete Biometrics API and framework from scratch. I also review PRs and fix bugs on existing codebase. This makes me deeply familiar with Zephyr’s internals and structure. I also authored a Time-of-Flight sensor driver (ST VL53L1X) that is currently in v5 review for Linux mainline. My first-author paper on the Vendor-Agnostic Biometric Subsystem for Industrial IoT is under revision at IEEE Transactions on Industrial Informatics. 
 - **Subscribe to the mailing list** of the appropriate group and introduce yourself:
   I'm already subscribed to Zephyr `devel` mailing list where I get regular updates for Architecture WG meetings and other updates.
 - **Tell us your IRC nick** with which you will use the group's IRC channel:
@@ -14,7 +14,7 @@
 ## Your Coding Skills
 
 - What platform do you use to code? Hardware specifications and operating system:
-  I use Arch Linux on a Thinkpad T14a G1 (6/12 Threads, 16 GB RAM) (it's the last model to take 2 SSDs), and a MacBook Air M1 with macOS 15 (don't like macOS 26). I use podman to run Ubuntu LTS (don't like it as a desktop OS) for Yocto and ROS2.
+  I use Arch Linux on a Thinkpad T14 AMD Gen1 (6/12 Threads, 16 GB RAM) (it's the last model to take 2 SSDs), and a MacBook Air M1 with macOS 15. I use podman to run Ubuntu LTS for Yocto and ROS2.
 - Did you ever code in C or C++/Perl/python/... ? What is your experience?
   My true first programming language was C++ I learned in 7th grade. Since then, I learned many other languages. Now I mostly use C, primary for Zephyr and the Linux Kernel. I use C extensively to write drivers/API for Zephyr. I also work on Linux applications and recently wrote a Linux Driver for ST VL53L1X ToF sensor. It is currently being upstreamed in the Kernel and can be found in lore.kernel.org
 - If you apply for a project on our ideas list, have you experience in the areas listed under "Desired knowledge"?
@@ -52,7 +52,7 @@
   OS level IoT Security. First FIDO2 support in any RTOS. Zephyr’s existing security framework like PSA Crypto + Biometrics allow for easy integration. Many real-world use cases like passwordless login on embedded devices.
 
 - **What makes you suited to carry the project?**
-  Being the author and maintainer of the Biometrics subsystem, I know the internals and workflow of zephyr and the security aspects. I have already drafted the full public API headers (PR #104327) for FIDO2. Plus I will be working directly with Zephyr Lead Security Architect Flavio Ceolin as my mentor
+  Being the author and maintainer of the Biometrics subsystem, I know the internals and workflow of zephyr and the security aspects. I have already drafted the full public API headers (PR #104327) for FIDO2. Plus I will be working directly with Zephyr Lead Security Architect Flavio Ceolin as my mentor. The architecture is scheduled for review by the Security Working Group
 
 - **How much time do you plan to invest** in the project before, during and after the Summer of Code (We expect full time 40h/week during GSoC, but better make this explicit)?
   40 hours/week during GSoC. I am already doing the research part, going through the CTAP2 specs and I plan to maintain the subsystem after GSoC ends along with the biometrics subsystem.
